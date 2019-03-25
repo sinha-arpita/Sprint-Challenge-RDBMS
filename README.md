@@ -1,4 +1,24 @@
 # Sprint Challenge: RDBMS and SQL - Projects & Actions
+QUESTION AND ANSWERS:
+
+Q.1)Explain the difference between RDBMS and SQL.
+
+Ans1)There are several types of Database Management Systems, but the most widely used is the Relational DataBase Management Systems or RDBMS.
+In relational databases, the data is stored in tabular format grouped into rows and columns and that collection of rows is called a table. Each row represent a single record in the table and is made up of one or more columns.
+These kind of databases are called relational due to the fact that a relation is a mathematical idea that is equivalent to a table. So relational databases are databases that store their data in tables.
+SQL or Structured Query Language is the standard language used to manage databases and the data within them. It is the way to interact with  the DBMS.
+
+Q.2)Why do tables need a primary key?
+Ans2)The role of a Primary Key (PK) is to provide a unique identifier to each row in a table. That is why it cannot be null. The PK is mandatory in order to define a Foreign Key (FK) relationship between a child table and a parent table. 
+A primary key is a special relational database table column (or combination of columns) designated to uniquely identify all table records. A primary key's main features are: It must contain a unique value for each row of data. It cannot contain null values.The main purpose of a primary key is to implement a relationship between two tables in a relational database; More specifically, the primary key is the "target" which a foreign key can reference.
+
+Q3)What is the name given to a table column that references the primary key on another table.
+ Ans3) Foreign key
+Q4)What do we need in order to have a many to many relationship between two tables.
+Ans4)To have many to many relationship we need to introduce a third table that holds foreign keys that     reference the primary key on the related tables.
+
+********************************************************************************************************
+
 
 This challenge allows you to practice the concepts and techniques learned over the past Sprint and apply them in a concrete project.
 
